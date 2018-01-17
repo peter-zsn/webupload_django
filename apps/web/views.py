@@ -20,8 +20,9 @@ def index(request):
         if not os.path.exists(filename):
             try:
                 with open(filename, 'wb') as f:
-                    for obj in upload_file.chunks():
-                        f.write(obj)
+                    # for obj in upload_file.chunks():
+                    #     f.write(obj)
+                    f.write(upload_file.read())
                     f.close()
             except Exception, e:
                 print e, 111
