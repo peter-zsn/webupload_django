@@ -18,12 +18,9 @@ def r_html(request):
 @accept_websocket
 def test(request):
     if request.is_websocket():
-        while 1:
-            msg = request.websocket.read()
-            if msg:
-                msg = msg.decode()
-                res = "hello" + msg
-                request.websocket.send(res.encode("utf-8"))
-                if msg == "5":
-                    request.websocket.close()
-                    break
+        for msg in request.websocket:
+            msg = msg.decode()
+            res = "hello" + msg
+            request.websocket.send(res.encode("utf-8"))
+    else:
+        return ajax.ajax_data({"data": 123})

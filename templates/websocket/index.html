@@ -7,7 +7,9 @@
 <body>
 
 
-<button onclick="WebSocketTest()">test</button>
+<button onclick="WebSocketTest()">连接</button>
+<button onclick="send_message()">发送</button>
+<button onclick="close_websocket()">关闭</button>
 </body>
 
 
@@ -15,6 +17,9 @@
 
     var time = 1;
     function WebSocketTest() {
+        if(window.s){
+            window.s.close();
+        }
         if ("WebSocket" in window) {
             alert("您的浏览器支持 WebSocket!");
 
@@ -24,28 +29,38 @@
             ws.onopen = function () {
                 // Web Socket 已连接上，使用 send() 方法发送数据
                 ws.send("发送数据");
-                alert("数据发送中...");
+
             };
 
             ws.onmessage = function (evt) {
                 var received_msg = evt.data;
-                alert("数据:" + received_msg);
-                if(time < 6){
-                    ws.send(time);
-                    time++;
-                }
+                console.log("reveive data:" + received_msg)
+               
             };
 
-            ws.onclose = function () {
-                // 关闭 websocket
-                alert("连接已关闭...");
-            };
+            if (ws.readyState == WebSocket.OPEN) ws.onopen();
+            window.s = ws;
         }
-
         else {
             // 浏览器不支持 WebSocket
             alert("您的浏览器不支持 WebSocket!");
         }
+    }
+    
+    function send_message() {
+         if (!window.s) {
+                alert("websocket未连接.");
+            } else {
+                window.s.send(time);//通过websocket发送数据
+                time++;
+            }
+    }
+    
+    function close_websocket() {
+         if (window.s) {
+                window.s.close();//关闭websocket
+                console.log('websocket已关闭');
+            }
     }
 
 

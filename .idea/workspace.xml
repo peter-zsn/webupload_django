@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a08603-62a7-4987-990f-37525692477c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/websock/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/websock/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/websock/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/websocket/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/first.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/index/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/rd_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/rd_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/341585-106.jpg7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/first/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/websock/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/websock/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/websocket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/websocket/index.html" afterDir="false" />
     </list>
     <ignored path="first.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/web/rd_view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="45" column="72" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="72" />
+            <state relative-caret-position="684">
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="30" />
               <folding>
                 <element signature="e#92#101#0" expanded="true" />
                 <element signature="e#260#368#0" />
@@ -82,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/websock/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="400">
+              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="e#87#93#0" expanded="true" />
               </folding>
@@ -94,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/websocket/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="148">
+              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/ajax.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -142,8 +132,8 @@
         <option value="$PROJECT_DIR$/first/settings.py" />
         <option value="$PROJECT_DIR$/first/urls.py" />
         <option value="$PROJECT_DIR$/apps/websock/urls.py" />
-        <option value="$PROJECT_DIR$/templates/websocket/index.html" />
         <option value="$PROJECT_DIR$/apps/websock/views.py" />
+        <option value="$PROJECT_DIR$/templates/websocket/index.html" />
       </list>
     </option>
   </component>
@@ -309,12 +299,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493108264866</updated>
-      <workItem from="1564366294509" duration="3849000" />
+      <workItem from="1564366294509" duration="5829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3849000" />
+    <option name="totallyTimeSpent" value="5829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +325,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.46153846" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.46153846" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32880846" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32998884" />
@@ -415,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/ajax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/web_upload/web_upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
@@ -487,6 +470,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/websock/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -499,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/web/rd_view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="45" column="72" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="72" />
+        <state relative-caret-position="684">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="30" />
           <folding>
             <element signature="e#92#101#0" expanded="true" />
             <element signature="e#260#368#0" />
@@ -508,30 +501,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/web/urls.py">
+    <entry file="file://$PROJECT_DIR$/libs/ajax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="209">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/websock/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#87#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/websocket/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/websock/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="e#87#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="148">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-end-line="42" />
         </state>
       </provider>
     </entry>
