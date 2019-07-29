@@ -1,6 +1,7 @@
-from django.conf.urls import include, url, patterns
+from django.conf.urls import include, url
 
-urlpatterns = patterns('',
+urlpatterns = [
     url(r'^index/', include('apps.index.urls')),
     url(r'^upload/', include('apps.web.urls')),
-)
+    url(r'^websock/', include('apps.websock.urls')),
+]

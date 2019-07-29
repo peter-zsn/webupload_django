@@ -24,8 +24,8 @@ def index(request):
                     #     f.write(obj)
                     f.write(upload_file.read())
                     f.close()
-            except Exception, e:
-                print e, 111
+            except Exception as e:
+                print(e)
     return ajax.ajax_template(request, 'web_upload/web_upload.html', {})
 
 def upload_success(request):
@@ -44,8 +44,8 @@ def upload_success(request):
                 target_file.write(source_file.read())  # 读取分片内容写入新文件
                 source_file.close()
                 # os.remove(filename)  # 删除该分片，节约空间
-            except Exception, e:
-                print e, 222
+            except Exception as e:
+                print(e, 222)
                 break
             chunk += 1
         target_file.close()

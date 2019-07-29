@@ -32,7 +32,7 @@ def index(request):
         try:
             r = get_redis_conn()
         except:
-            print 'DatabaseError'
+            print('DatabaseError')
         list_key = "%s_list" % real_file_name
         list_tmp = r.get(list_key)
         if not list_tmp:
@@ -52,7 +52,7 @@ def upload_success(request):
     try:
         r = get_redis_conn()
     except:
-        print 'DatabaseError'
+        print('DatabaseError')
     with open("./apps/web/upload/%s" % name, 'wb') as target_file:  # 创建新文件
         while True:
             try:
@@ -63,8 +63,8 @@ def upload_success(request):
                 else:
                     break
                 r.delete(key)
-            except Exception, e:
-                print e, 222
+            except Exception as e:
+                print(e, 222)
                 break
             chunk += 1
         target_file.close()

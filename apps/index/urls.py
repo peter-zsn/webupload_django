@@ -7,7 +7,7 @@
 @time: 2017/4/25 16:36
 """
 
-from django.conf.urls import include, url, patterns
+from django.conf.urls import include, url
 from apps.index import views
 
 urlpatterns = [

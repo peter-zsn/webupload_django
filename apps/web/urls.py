@@ -7,7 +7,7 @@
 @time: 2017/12/22 10:07
 """
 
-from django.conf.urls import include, url, patterns
+from django.conf.urls import include, url
 from apps.web import views                      # 文件形式的分片上传
 from apps.web import rd_view                    # redis 形式的分片上传
 
