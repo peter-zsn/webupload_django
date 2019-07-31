@@ -25,7 +25,7 @@ SECRET_KEY = 'o)1gg8k*909#$lww+esj)8#n&+0%kcxbv!x=9a%e^&h#5_3$h-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -37,7 +37,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dwebsocket'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,7 +48,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'dwebsocket.middleware.WebSocketMiddleware',
+    'dwebsocket.middleware.WebSocketMiddleware'
 )
 
 ROOT_URLCONF = 'first.urls'
